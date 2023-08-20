@@ -14,6 +14,29 @@
         "js/bootstrap.bundle.js",
         "js/bootstrap.bundle.js.map"
       ]
+    },
+    {
+      "library": "bootbox.js@6.0.0",
+      "destination": "wwwroot/lib/bootbox.js/"
+    },
+    {
+      "library": "animate.css@4.1.1",
+      "destination": "wwwroot/lib/animate.css/",
+      "files": [
+        "animate.min.css",
+        "animate.css"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "sweetalert2@11.7.23",
+      "destination": "wwwroot/lib/sweetalert2/",
+      "files": [
+        "dist/sweetalert2.all.js",
+        "dist/sweetalert2.all.min.js",
+        "dist/sweetalert2.min.css",
+        "dist/sweetalert2.css"
+      ]
     }
   ]
 }
